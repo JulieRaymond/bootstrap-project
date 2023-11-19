@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SCRIPT CSS BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quête Bootstrap5.1</title>
+  </head>
+
+  <body>
+    <!-- BARRE DE NAVIGATION -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><strong>Discovering Bootstrap5.1</strong></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Photos</a></li>
+                  <li><a class="dropdown-item" href="#">Articles</a></li>
+                  <li><a class="dropdown-item" href="#">Projects</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- CONTENU DU SITE -->
+
+    <main>
+      <div>
+        <h1>Journey into Bootstrap classes</h1>
+      </div>
+      <section>
+        <div class="card-deck">
+          <!-- Utilisez la classe card-deck pour organiser les cartes en grille -->
+
+          <!-- Carte 1 -->
+          <div class="card">
+            <img
+              src="assets/images/image1.jpeg"
+              class="card-img-top"
+              alt="Description de l'image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Visit Components lake</h5>
+              <br />
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                dolorum doloribus ratione soluta perspiciatis aut rerum, vitae a
+                voluptas perferendis similique rem dignissimos exercitationem
+                quo quaerat accusamus aliquid officia hic!
+              </p>
+              <a href="lien_vers_la_suite.html" class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <!-- Carte 2 -->
+          <div class="card">
+            <img
+              src="assets/images/image2.jpeg"
+              class="card-img-top"
+              alt="Description de l'image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Facing Cascade Style Sheet</h5>
+              <br />
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                dolorum doloribus ratione soluta perspiciatis aut rerum, vitae a
+                voluptas perferendis similique rem dignissimos exercitationem
+                quo quaerat accusamus aliquid officia hic!
+              </p>
+              <a href="lien_vers_la_suite.html" class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <!-- Carte 3 -->
+          <div class="card">
+            <img
+              src="assets/images/image3.jpeg"
+              class="card-img-top"
+              alt="Description de l'image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Comtemplate Form Inputs</h5>
+              <br />
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                dolorum doloribus ratione soluta perspiciatis aut rerum, vitae a
+                voluptas perferendis similique rem dignissimos exercitationem
+                quo quaerat accusamus aliquid officia hic!
+              </p>
+              <a href="lien_vers_la_suite.html" class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <!-- Carte 4 -->
+          <div class="card">
+            <img
+              src="assets/images/image4.jpeg"
+              class="card-img-top"
+              alt="Description de l'image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Enjoy Responsive land</h5>
+              <br />
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                dolorum doloribus ratione soluta perspiciatis aut rerum, vitae a
+                voluptas perferendis similique rem dignissimos exercitationem
+                quo quaerat accusamus aliquid officia hic!
+              </p>
+              <a href="lien_vers_la_suite.html" class="btn btn-primary"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="endOfPage">
+          <header><h1>The CSS frameworks are very useful</h1></header>
+          <p>Learning them comes with practice</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-3" id="customFooter">
+      &copy; 2023 wilders | images @picsum
+    </footer>
+    <!-- SCRIPT JS BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

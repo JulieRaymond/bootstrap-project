@@ -1,0 +1,113 @@
+:root {
+  --primary: #2454a2;
+  --second: white;
+}
+
+.navbar {
+  background-color: var(--primary) !important;
+}
+
+.navbar-brand {
+  color: var(--second);
+}
+
+.navbar-nav .nav-link {
+  color: var(--second);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* survol du lien de navigation */
+.navbar-nav .nav-link:hover {
+  color: grey;
+}
+
+main {
+  text-align: center;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card-deck {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-deck {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.card-img-top {
+  border-radius: 5px;
+  height: 191px;
+  width: auto;
+}
+
+h5 {
+  text-align: left;
+}
+
+.card-body > p {
+  text-align: left;
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .card-body > p {
+    display: block;
+  }
+  .card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  h1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: var(--primary);
+  color: var(--second);
+}
+
+.endOfPage {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+header > h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#customFooter {
+  background-color: var(--primary) !important;
+  color: var(--second) !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  text-align: center;
+  bottom: 0;
+}
